@@ -16,6 +16,7 @@ QFontDatabase::addApplicationFont(":/MaterialDesign-Webfont-master/fonts/materia
 import  "Icon.js" as MdiFont
 
 设置 font.family ："Material Design Icons"
+
 设置 text ：MdiFont.Icon.图标名称 ， 参照 https://materialdesignicons.com, 注意 icon.js中对应名称部分有改动
 
 使用ToolButton设置图标按钮，使用Label设置图标
