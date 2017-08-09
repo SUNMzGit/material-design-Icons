@@ -10,6 +10,26 @@ ApplicationWindow {
     width: 640
     height: 480
     title: qsTr("Material Design Icons")
+
+    Item {
+        width: 200
+        height: 100
+        Rectangle {
+            width: 48
+            height: 48
+            radius: 24
+            color: "#EEEEEE"
+            anchors.centerIn: parent
+            Label {
+                anchors.centerIn: parent
+                font.pointSize: 24
+                font.family: "Material Design Icons"
+                text: MdiFont.Icon.chartBar
+                Material.foreground: Material.Orange //设置图标颜色，利用Material.theme只能设置黑白色
+            }
+        }
+    }
+
     Row {
         anchors.centerIn: parent
         spacing: 20
@@ -31,7 +51,7 @@ ApplicationWindow {
             }
             MouseArea {
                 anchors.fill: parent
-                onClicked: { console.info("click") }
+                onClicked: { infoBar.open(qsTr("Message sent")) }
             }
         }
         Rectangle {
@@ -83,5 +103,8 @@ ApplicationWindow {
                 Material.foreground: Material.Orange //设置图标颜色，利用Material.theme只能设置黑白色
             }
         }
+    }
+    InfoBar {
+        id: infoBar
     }
 }

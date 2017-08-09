@@ -1,13 +1,13 @@
 # qml-material-icon
 在QT/QML中使用Material Design Icons,用于图标，图标按钮
-1.  https://materialdesignicons.com/下载最新的 Material Design Icons font，解压后与工程文件放在一起
+1.  https://materialdesignicons.com/下载最新的 Material Design Icons font，解压后将materialdesignicons-webfont.ttf文件与工程文件放在一起，materialdesignicons-webfont.ttf路径：/MaterialDesign-Webfont-master/fonts/
 
 2. 将图标库文件加载到项目的资源文件
 
 3. 在主程序启动时加载图标字库
 Main.cpp中
 #include <QFontDatabase>
-QFontDatabase::addApplicationFont(":/MaterialDesign-Webfont-master/fonts/materialdesignicons-webfont.ttf");
+QFontDatabase::addApplicationFont(":/materialdesignicons-webfont.ttf");
 
 4. 添加icon.js文件到项目的资源文件
    https://github.com/kevincarlson/QmlBridgeForMaterialDesignIcons.git

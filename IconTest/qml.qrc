@@ -3,28 +3,8 @@
         <file>main.qml</file>
         <file>qtquickcontrols2.conf</file>
         <file>Icon.js</file>
-        <file>MaterialDesign-Webfont-master/css/materialdesignicons.css</file>
-        <file>MaterialDesign-Webfont-master/css/materialdesignicons.css.map</file>
-        <file>MaterialDesign-Webfont-master/css/materialdesignicons.min.css</file>
-        <file>MaterialDesign-Webfont-master/css/materialdesignicons.min.css.map</file>
-        <file>MaterialDesign-Webfont-master/fonts/materialdesignicons-webfont.eot</file>
-        <file>MaterialDesign-Webfont-master/fonts/materialdesignicons-webfont.svg</file>
-        <file>MaterialDesign-Webfont-master/fonts/materialdesignicons-webfont.ttf</file>
-        <file>MaterialDesign-Webfont-master/fonts/materialdesignicons-webfont.woff</file>
-        <file>MaterialDesign-Webfont-master/fonts/materialdesignicons-webfont.woff2</file>
-        <file>MaterialDesign-Webfont-master/scss/_animated.scss</file>
-        <file>MaterialDesign-Webfont-master/scss/_core.scss</file>
-        <file>MaterialDesign-Webfont-master/scss/_extras.scss</file>
-        <file>MaterialDesign-Webfont-master/scss/_functions.scss</file>
-        <file>MaterialDesign-Webfont-master/scss/_icons.scss</file>
-        <file>MaterialDesign-Webfont-master/scss/_path.scss</file>
-        <file>MaterialDesign-Webfont-master/scss/_variables.scss</file>
-        <file>MaterialDesign-Webfont-master/scss/materialdesignicons.scss</file>
-        <file>MaterialDesign-Webfont-master/bower.json</file>
-        <file>MaterialDesign-Webfont-master/license.md</file>
-        <file>MaterialDesign-Webfont-master/package.json</file>
-        <file>MaterialDesign-Webfont-master/preview.html</file>
-        <file>MaterialDesign-Webfont-master/README.md</file>
         <file>main.cpp</file>
+        <file>InfoBar.qml</file>
+        <file>materialdesignicons-webfont.ttf</file>
     </qresource>
 </RCC>
