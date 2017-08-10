@@ -10,7 +10,9 @@ Main.cpp中
 QFontDatabase::addApplicationFont(":/materialdesignicons-webfont.ttf");
 
 4. 添加icon.js文件到项目的资源文件
+
    Thanks:kevincarlson
+   
    https://github.com/kevincarlson/QmlBridgeForMaterialDesignIcons.git
 
 5. QML 中使用
